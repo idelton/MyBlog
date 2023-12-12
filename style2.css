@@ -1,0 +1,43 @@
+.mb-n3 {
+    margin-top: -0.8rem !important;
+}
+/*img*/
+img {
+    image-rendering: crisp-edges;
+    object-fit: cover;
+}
+
+.rounded {
+    background-size: cover;
+}
+/*Post Populaire*/
+.media:hover {
+    background-color: lightgray !important;
+}
+/* Boutton grnade div lire plus*/
+.btn {
+    border: 1px solid lightgray;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+/*footer*/
+.pag:hover {
+    background-color: gray !important;
+}
+/*card tag*/
+kbd:hover {
+    background-color: lightgray !important;
+}
+/*car grande*/
+.container-fluid {
+    max-width: 100% !important;
+}
+
+@media  ( max-width : 767px) {
+    div .cards {
+        width: 350px;
+    }
+}
